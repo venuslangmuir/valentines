@@ -15,6 +15,12 @@
             img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
             table { border-collapse: collapse !important; }
             body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
+
+            @media screen and (max-width: 600px) {
+                .body-padding {
+                    padding: 0 0 0 0 !important;
+                }
+            }
         </style>
     </head>
 
@@ -31,7 +37,7 @@
         <!-- Pseudo Body Table -->
         <table class="body" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" bgcolor="#e0d0d3" style="margin:0;padding:0;min-width:100%;background-color:#e0d0d3;">
             <tr>
-                <td style="padding: 60px;">
+                <td class="body-padding" style="padding: 60px;">
                     <!-- Wrapper Table -->
                     <table class="wrapper" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="max-width: 600px;">
                         <tr>
